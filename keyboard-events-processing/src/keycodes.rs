@@ -1,0 +1,72 @@
+pub use core_graphics::event::CGKeyCode;
+
+pub struct AnsiKeyCode {}
+
+#[allow(unused)]
+impl AnsiKeyCode {
+    pub const A: CGKeyCode = 0x00;
+    pub const S: CGKeyCode = 0x01;
+    pub const D: CGKeyCode = 0x02;
+    pub const F: CGKeyCode = 0x03;
+    pub const H: CGKeyCode = 0x04;
+    pub const G: CGKeyCode = 0x05;
+    pub const Z: CGKeyCode = 0x06;
+    pub const X: CGKeyCode = 0x07;
+    pub const C: CGKeyCode = 0x08;
+    pub const V: CGKeyCode = 0x09;
+    pub const B: CGKeyCode = 0x0B;
+    pub const Q: CGKeyCode = 0x0C;
+    pub const W: CGKeyCode = 0x0D;
+    pub const E: CGKeyCode = 0x0E;
+    pub const R: CGKeyCode = 0x0F;
+    pub const Y: CGKeyCode = 0x10;
+    pub const T: CGKeyCode = 0x11;
+    pub const DIGIT_1: CGKeyCode = 0x12;
+    pub const DIGIT_2: CGKeyCode = 0x13;
+    pub const DIGIT_3: CGKeyCode = 0x14;
+    pub const DIGIT_4: CGKeyCode = 0x15;
+    pub const DIGIT_6: CGKeyCode = 0x16;
+    pub const DIGIT_5: CGKeyCode = 0x17;
+    pub const EQUAL: CGKeyCode = 0x18;
+    pub const DIGIT_9: CGKeyCode = 0x19;
+    pub const DIGIT_7: CGKeyCode = 0x1A;
+    pub const MINUS: CGKeyCode = 0x1B;
+    pub const DIGIT_8: CGKeyCode = 0x1C;
+    pub const DIGIT_0: CGKeyCode = 0x1D;
+    pub const RIGHT_BRACKET: CGKeyCode = 0x1E;
+    pub const O: CGKeyCode = 0x1F;
+    pub const U: CGKeyCode = 0x20;
+    pub const LEFT_BRACKET: CGKeyCode = 0x21;
+    pub const I: CGKeyCode = 0x22;
+    pub const P: CGKeyCode = 0x23;
+    pub const L: CGKeyCode = 0x25;
+    pub const J: CGKeyCode = 0x26;
+    pub const QUOTE: CGKeyCode = 0x27;
+    pub const K: CGKeyCode = 0x28;
+    pub const SEMICOLON: CGKeyCode = 0x29;
+    pub const BACKSLASH: CGKeyCode = 0x2A;
+    pub const COMMA: CGKeyCode = 0x2B;
+    pub const SLASH: CGKeyCode = 0x2C;
+    pub const N: CGKeyCode = 0x2D;
+    pub const M: CGKeyCode = 0x2E;
+    pub const PERIOD: CGKeyCode = 0x2F;
+    pub const GRAVE: CGKeyCode = 0x32;
+    pub const KEYPAD_DECIMAL: CGKeyCode = 0x41;
+    pub const KEYPAD_MULTIPLY: CGKeyCode = 0x43;
+    pub const KEYPAD_PLUS: CGKeyCode = 0x45;
+    pub const KEYPAD_CLEAR: CGKeyCode = 0x47;
+    pub const KEYPAD_DIVIDE: CGKeyCode = 0x4B;
+    pub const KEYPAD_ENTER: CGKeyCode = 0x4C;
+    pub const KEYPAD_MINUS: CGKeyCode = 0x4E;
+    pub const KEYPAD_EQUALS: CGKeyCode = 0x51;
+    pub const KEYPAD_0: CGKeyCode = 0x52;
+    pub const KEYPAD_1: CGKeyCode = 0x53;
+    pub const KEYPAD_2: CGKeyCode = 0x54;
+    pub const KEYPAD_3: CGKeyCode = 0x55;
+    pub const KEYPAD_4: CGKeyCode = 0x56;
+    pub const KEYPAD_5: CGKeyCode = 0x57;
+    pub const KEYPAD_6: CGKeyCode = 0x58;
+    pub const KEYPAD_7: CGKeyCode = 0x59;
+    pub const KEYPAD_8: CGKeyCode = 0x5B;
+    pub const KEYPAD_9: CGKeyCode = 0x5C;
+}

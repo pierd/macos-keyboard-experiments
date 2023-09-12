@@ -1,0 +1,13 @@
+[package]
+name = "keyboard-events-processing"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+core-foundation = "0.9.3"
+core-graphics = "0.23.1"
+foreign-types = "0.5.0"
+libc = "0.2"
+parking_lot = "0.12.1"
